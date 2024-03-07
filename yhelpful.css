@@ -1,0 +1,118 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+.header {
+    display: flex; /* Align items horizontally */
+    align-items: center; 
+    margin: 0;
+    background-color: #005eb8;
+    color: #ffffff;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.nhs-logo {
+    height: 50px; /* Set a height for the logo */
+    margin-right: 15px; /* Add some space between the logo and the text */
+    }
+
+
+a {
+    display: inline;
+    background-color: #005eb8 ;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+a:hover {
+    background-color: #003d70;
+}
+
+/* Main content and sidebar styles */
+.content-row {
+    display: flex;
+}
+.sidebar {
+    margin-right: 0;
+}
+
+/* 清除 float 造成的影响 */
+.clear {
+    clear: both;
+}
+
+.main-content, .sidebar {
+    /* 移除了 float，并为 flex 子项设置了宽度 */
+    /* 你可以根据需要调整这个宽度 */
+    flex: 1; /* 这将允许它们占用可用空间 */
+    margin-right: 20px; /* 为 main-content 添加右边距 */
+}
+
+.sidebar {
+    float: right;
+    width: 60%;
+    margin-left: 0;
+}
+
+.sidebar p {
+    background: #f3f3f3;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.leftbar{
+    float: left;
+    width: 60%;
+    margin-right: 20px;
+}
+.leftbar p{
+    background: #f3f3f3;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.front{
+    float: left;
+    width: 65%;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-left: 160px;
+}
+.main-content {
+    float: left;
+    width: 65%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.content-image {
+    width: 400px; 
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px; /* Adjust as needed */
+    margin: 20px auto;
+    overflow: hidden; /* Clear floats */
+}
+
+/* Style the footer */
+footer {
+    background-color: #005eb8;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 10px 0;
+}
