@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.form-lable {
+    margin-left: 50px;
+}
+
+.header {
+    display: flex; /* Align items horizontally */
+    align-items: center; 
+    margin: 0;
+    background-color: #005eb8;
+    color: #ffffff;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.nhs-logo {
+height: 50px; /* Set a height for the logo */
+margin-right: 15px; /* Add some space between the logo and the text */
+}
+/* Add to styles.css */
+
+input[type="text"], input[type="number"], input[type="email"], input[type="password"] {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #007f3b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #005a2b;
+}
+
+.form-container {
+    background: #f4f4f4;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    width: 500px;
+    margin-top: 20px;
+}
+
+.form-header {
+    color: #005eb8;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* If you want to reuse the styles for links like 'Don't Know your NHS Number?' */
+.link {
+    color: #005eb8;
+    text-decoration: none;
+    display: block;
+}
