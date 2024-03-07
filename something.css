@@ -1,0 +1,59 @@
+/* 在这里添加你的CSS样式 */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.header {
+    display: flex; /* Align items horizontally */
+    align-items: center; 
+    margin: 0;
+    background-color: #005eb8;
+    color: #ffffff;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.nhs-logo {
+    height: 50px; /* Set a height for the logo */
+    margin-right: 15px; /* Add some space between the logo and the text */
+    }
+
+a {
+    display: inline;
+    background-color: #005eb8 ;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+a:hover {
+    background-color: #003d70;
+}
+
+
+.content {
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #005eb8;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 10px 0;
+}
