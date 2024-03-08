@@ -32,13 +32,18 @@
                   optimizing treatment outcomes. </p>
             </div>
         </div>
-        <div class = "leftbar">
-            <p>We propose the implementation of carefully curated hypnotherapy videos (by trance-form medical) 
+        <div class = "content-row2">
+            <div class = "leftbar">
+                <p>We propose the implementation of carefully curated hypnotherapy videos (by trance-form medical) 
                 within the NHS to help streamline resource usage, including medicine and time, 
                 and facilitate a more efficient NHS operation. Additionally, patients can access hypnotherapy videos for home use, 
                 promoting accelerated recovery and disease control without excessive medication.This approach improves patient 
                 outcomes and also enables the reallocation of funds for other areas of the healthcare sector like Research and 
                 Development or other under funded branches. </p>
+            </div>
+            <div class = "main-content2">
+                <img src="picture2.png" alt="Description" height = 300px;>
+            </div>
         </div>
         <div class="clear"></div>
     </div>

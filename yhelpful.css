@@ -41,6 +41,9 @@ a:hover {
 .content-row {
     display: flex;
 }
+.conten-row2{
+    display: flex;
+}
 .sidebar {
     margin-right: 0;
 }
@@ -50,9 +53,7 @@ a:hover {
     clear: both;
 }
 
-.main-content, .sidebar {
-    /* 移除了 float，并为 flex 子项设置了宽度 */
-    /* 你可以根据需要调整这个宽度 */
+.main-content, .sidebar , .leftbar,.main-content2{
     flex: 1; /* 这将允许它们占用可用空间 */
     margin-right: 20px; /* 为 main-content 添加右边距 */
 }
@@ -93,6 +94,13 @@ a:hover {
     padding: 20px;
     box-sizing: border-box;
 }
+.main-content2{
+    float: right;
+    width: 65%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
 .content-image {
     width: 400px; 
 }

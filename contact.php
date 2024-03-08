@@ -16,11 +16,20 @@
     </div>
 
     <div class="container content">
-        <h2>Contact Informations</h2>
-        <?php
-            echo "Here you would retrieve and display the NHS contact information.";
-        ?>
+        <h2>How you can contact us: </h2>
     </div>
+        <div class = "informations">
+            <p>Emergency Services Call: 999 
+                <br>Non-Emergency Services Call: 111
+                <br>Email: England.Contactus@Nhs.Net
+                <br>COVID-19 Vaccinations Or Testing: 119
+                <br>
+                <br>Mental Well-Being
+                <br>Samaritans: 116 123
+                <br>Child Line(Under 19): 0800 1111
+            </p>
+            
+        </div>
 
     <footer>
         <div class="container">
